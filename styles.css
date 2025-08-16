@@ -296,6 +296,16 @@ video {
     height: 410px;
 }
 
+.jonathanimgd {
+    height: 400px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.jonathanimgd:hover {
+    height: 410px;
+}
+
 .mudar {
     display:flex;
     justify-content: center;
@@ -313,8 +323,12 @@ video {
 }
 
 .mudar button:hover {
-    background-color: rgb(255, 127, 217);
+    background-color: #ff7fd9;
     cursor: pointer;
+}
+
+.mudar button:focus {
+    background-color: #ffb2e8;
 }
 
 .kiramudar {
