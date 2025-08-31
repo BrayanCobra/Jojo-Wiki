@@ -337,6 +337,16 @@ video {
     justify-content: center;
 }
 
+.fundobonitinho {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgba(139, 137, 255, 0.144);
+    width: 90%;
+    height: auto;
+}
+
 @media (max-width: 700px) {
 
     header {
@@ -444,7 +454,7 @@ video {
         width: 100px;
     }
 
-        .imgmenor,
+    .imgmenor,
     .imgmenor:hover {
         height: 200px;
         margin-right: -10;
@@ -476,6 +486,12 @@ video {
         position: fixed;
         margin: 20px;
         top: 65px;
+    }
+
+    .caixa-maebio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
